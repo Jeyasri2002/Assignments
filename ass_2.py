@@ -4,7 +4,9 @@ Created on Tue Dec  5 19:44:01 2023
 
 @author: Dell
 """
-
+"""
+Given an integer n, count the total number of digit 1 appearing in all non-negative integers less than or equal to n.
+"""
 def CountDigitOne(n):
     count=0
     i=1
