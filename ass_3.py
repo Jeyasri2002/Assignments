@@ -4,6 +4,10 @@ Created on Tue Dec  5 20:13:42 2023
 
 @author: Dell
 """
+"""
+Given an integer array of size n, find all elements that appear more than ⌊ n/3 ⌋ times.
+"""
+
 def majority_elements(nums):
     n = len(nums)
     threshold = n // 3
